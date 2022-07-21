@@ -172,8 +172,8 @@ impl IntoBehaviourNode for WasmScript {
 
 #[bench]
 fn bench_run(b: &mut Bencher) {
-    const NODES: usize = 10000;
-    const EDGES: usize = 500000;
+    const NODES: usize = 20;
+    const EDGES: usize = 500;
 
     let mut system = System::default();
     let input = system.create_input::<f64>();
