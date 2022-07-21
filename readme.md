@@ -1,7 +1,11 @@
-# poc for finctional reactive program evaluation
+# poc for functional reactive program evaluation
 
 The "program" is a graph where a node is executed when there was any change on the input.
 Input change can be anything. Just to name a few: frame id (run in every frame), location change of a character, keyboard down, path finding route change, collision of objects, etc. 
+
+Some more info:
+ - <https://gist.github.com/staltz/868e7e9bc2a7b8c1f754>
+ - <https://cljdoc.org/d/frp/frp/0.1.3/doc/the-introduction-to-functional-reactive-programming-you-ve-been-missing>
 
 In the POC:
 - all node has 2 f64 input and 1 f64 output.
