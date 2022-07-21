@@ -1,0 +1,19 @@
+[package]
+name = "frp"
+version = "0.1.0"
+edition = "2021"
+
+[features]
+default = ["native_default"]
+native_default = []
+web_default = []
+
+[dependencies]
+log = "0.4"
+thiserror = "1.0"
+wasmer = "2.3"
+rand = "0.8"
+
+downcast-rs = "1.2"
+
+[dev-dependencies]
