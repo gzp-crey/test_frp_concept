@@ -19,7 +19,39 @@ to check the dot:
 
 
 Some results (on my office computer whatever it is)
-
+- 10/2 nodes
+```
+node: 10
+script node: 2
+input edge count: 6
+edge count: 14
+test bench_run ... bench:         796 ns/iter (+/- 341)
+```
+- 100/9 nodes
+```
+node: 100
+script node: 9
+input edge count: 45
+edge count: 155
+test bench_run ... bench:       5,857 ns/iter (+/- 2,055)
+```
+- 1000/102 nodes
+```
+node: 1000
+script node: 102
+input edge count: 374
+edge count: 1626
+test bench_run ... bench:      88,335 ns/iter (+/- 58,944)
+```
+- 1000/689 nodes
+```
+node: 1000
+script node: 689
+input edge count: 404
+edge count: 1596
+test bench_run ... bench:     278,798 ns/iter (+/- 39,874)
+```
+- 10000/966 nodes
 ```
 node: 10000
 script node: 966
@@ -27,7 +59,7 @@ input edge count: 373
 edge count: 19627
 test bench_run ... bench:   1,396,535 ns/iter (+/- 575,711)
 ```
-
+- 10000/7066 nodes
 ```
 node: 10000
 script node: 7066
@@ -35,7 +67,7 @@ input edge count: 401
 edge count: 19599
 test bench_run ... bench:   6,456,465 ns/iter (+/- 1,749,424)
 ```
-
+- 100000/9867 nodes
 ```
 node: 100000
 script node: 9867
@@ -43,7 +75,7 @@ input edge count: 3963
 edge count: 196037
 test bench_run ... bench:  32,872,370 ns/iter (+/- 13,471,371)
 ```
-
+- 100000/70109 nodes
 ```
 node: 100000
 script node: 70109
