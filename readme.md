@@ -14,7 +14,7 @@ In the POC:
 To extend for graph with cycle handling:
  - some behaviour/edge/node could be added that breaks the cycle and send the event only in the next frame/iteration.
 
-For a sample graph check the <https://github.com/gzp-crey/test_frp_concept/blob/master/small.png> in the repo
+For a sample graph check ![small](https://github.com/gzp-crey/test_frp_concept/blob/master/small.png) in the repo
 
 Runing:
 - test: `cargo test`
