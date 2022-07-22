@@ -4,6 +4,7 @@ The "program" is a graph where a node is executed when there was any change on t
 Input change can be anything. Just to name a few: frame id (run in every frame), location change of a character, keyboard down, path finding route change, collision of objects, etc. 
 
 Some more info:
+ - <http://www.cs.nott.ac.uk/~psznhn/Publications/jfp2020.pdf>
  - <https://gist.github.com/staltz/868e7e9bc2a7b8c1f754>
  - <https://cljdoc.org/d/frp/frp/0.1.3/doc/the-introduction-to-functional-reactive-programming-you-ve-been-missing>
 
